@@ -1,0 +1,143 @@
+body {
+  height: 100vh;
+  width: 80em;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+}
+
+header,
+.gallery-container,
+.description {
+  display: flex;
+  background-color: #000000;
+}
+
+.characteristics,
+footer {
+  display: flex;
+  background-color: #1e1a13;
+}
+
+.icon-container,
+.info-container,
+.parragraph-container{
+  display: flex;
+}
+
+
+h1 {
+  font-size: 3.7rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+header {
+  justify-content: center;
+  height: 4.563em;
+  margin: 0;
+  padding: 0.438em;
+}
+
+.background-img {
+  background: url("../img/bg-header.jpg");
+  background-size: cover;
+  height: 45.438em;
+}
+
+.description {
+  justify-content: space-evenly;
+  height: 21.750em;
+}
+
+.description img {
+  width: 24.938em;
+  height: 14.813em;
+  padding-top: 2.813em;
+  padding-bottom: 4.125em;
+}
+
+.text-container {
+  width: 29.688em;
+  height: 12.313em;
+  padding: 4.750em;
+}
+
+.characteristics {
+  flex-direction: column;
+  align-items: center;
+  height: 21.750em;
+}
+
+.characteristics h1 {
+  font-weight: 400;
+  font-size: 2.938rem;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.icon-container {
+  width: 621px;
+  justify-content: space-between;
+  margin-bottom: 16.36px;
+  padding: 0;
+}
+
+.parragraph-container {
+  width: 80em;
+  margin: 0 0 74 0;
+}
+
+#parragraph-1 {
+  margin-left: 301px;
+}
+
+#parragraph-2 {
+  margin-left: 182px;
+}
+
+#parragraph-3 {
+  margin-left: 145px;
+}
+
+.parragraph-container p{
+  margin: 0;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.fa-eye {
+  font-size: 57px;
+}
+
+.fa-angellist {
+  font-size: 56px;
+}
+
+.fa-paint-brush {
+  font-size: 49px;
+}
+
+.gallery-container {
+  height: 21.750em;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.gallery-container img {
+  width: 19.750em;
+  height: 12.625em;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  height: 6.375em;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: inherit;
+}
