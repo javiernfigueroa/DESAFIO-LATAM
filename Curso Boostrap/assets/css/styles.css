@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+}
+
+p {
+  margin: 0 !important;
+  opacity: 50%;
+}
+
+hr {
+  margin: 20px 0 0 0 !important;
+  width:100% !important;
+  border-top: 1px solid black !important;
+}
+
+i {
+  width: 15px;
+  opacity: 50%;
+}
+
+.logo {
+  max-width: 100px;
+}
+.card-body {
+  padding: 10px;
+}
+
+/* #212529
+ #707070
+ #F8F9FA 
+#fff
+#28a745 */
