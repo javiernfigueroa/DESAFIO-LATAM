@@ -7,6 +7,16 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+h5 {
+  font-size: 1.125rem;
+  height: 108px;
+}
+
+.info {
+  width: auto;
+  height: 120px;
+}
+
 p {
   margin: 0 !important;
   opacity: 50%;
